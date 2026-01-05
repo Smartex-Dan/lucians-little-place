@@ -1,0 +1,83 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.btn {
+  background: #D88C9A;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: #c77986;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+h1{
+  text-align: center;
+}
+
+body{
+    background-color: #FBF6F4;
+    color: #3A2E2A;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.product-card {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.product-card h3 {
+  margin: 10px 0 5px;
+  font-size: 1.1rem;
+}
+
+.price {
+  color: #D88C9A;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.site-header {
+  background: #ffffff;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 2px solid palevioletred;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 120px; 
+  width: auto;
+}
